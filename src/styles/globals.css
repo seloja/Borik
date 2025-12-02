@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --dvfu-blue: #6995D0;
+  --dvfu-dark-blue: #3B63AB;
+  --dvfu-teal: #00A8E8;
+  --dvfu-orange: #F5A623;
+  --dvfu-green: #4CAF50;
+  --dvfu-light-gray: #F5F6F8;
+  --dvfu-text: #1F2937;
+  --dvfu-secondary-text: #6B7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--dvfu-text);
+  background: #FFFFFF;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--dvfu-dark-blue);
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.3;
+  color: var(--dvfu-dark-blue);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--dvfu-dark-blue);
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--dvfu-text);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--dvfu-text);
+}
+
+a {
+  color: var(--dvfu-blue);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--dvfu-dark-blue);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+}
