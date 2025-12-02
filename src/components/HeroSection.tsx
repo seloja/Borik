@@ -34,7 +34,7 @@ export function HeroSection() {
           </div>
           
           {/* Stats */}
-          <div className="mt-12 grid grid-cols-3 gap-8">
+          <div className="mt-16 grid grid-cols-3 gap-12">
             <div>
               <div className="text-4xl mb-2 text-[#F5A623]">500+</div>
               <div className="text-white/90">Волонтеров</div>

@@ -2,8 +2,8 @@ import { ArrowRight, Mail } from 'lucide-react';
 
 export function CTASection() {
   return (
-    <section className="py-20 bg-[#3B63AB]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-32 bg-[#3B63AB]">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-white mb-6">
             Готов изменить мир?
@@ -13,11 +13,11 @@ export function CTASection() {
           </p>
 
           {/* Registration Form */}
-          <div className="bg-white rounded-xl p-8 shadow-lg">
-            <h3 className="mb-6">Зарегистрироваться</h3>
+          <div className="bg-white rounded-xl p-10 shadow-lg">
+            <h3 className="mb-8">Зарегистрироваться</h3>
             
-            <form className="space-y-4">
-              <div className="grid md:grid-cols-2 gap-4">
+            <form className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 <input
                   type="text"
                   placeholder="Имя"
@@ -77,7 +77,7 @@ export function CTASection() {
               </button>
             </form>
 
-            <div className="mt-6 pt-6 border-t border-gray-200">
+            <div className="mt-8 pt-8 border-t border-gray-200">
               <div className="flex items-center justify-center gap-2 text-[#6B7280]">
                 <Mail className="w-4 h-4" />
                 <span className="text-sm">

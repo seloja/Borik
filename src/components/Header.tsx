@@ -1,5 +1,5 @@
-import { Menu, User, X } from 'lucide-react';
-import { useState } from 'react';
+import { Menu, User, X } from "lucide-react";
+import { useState } from "react";
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,22 +14,30 @@ export function Header() {
               <span className="text-white">ДВФУ</span>
             </div>
             <div className="hidden sm:block">
-              <div className="text-[#3B63AB]">Обучение служением</div>
+              <div className="text-[#3B63AB]">
+                Обучение служением
+              </div>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#projects" className="text-[#3B63AB] hover:text-[#6995D0] transition-colors">
+            <a
+              href="#projects"
+              className="text-[#3B63AB] hover:text-[#6995D0] transition-colors"
+            >
               Проекты
             </a>
-            <a href="#how-it-works" className="text-[#3B63AB] hover:text-[#6995D0] transition-colors">
+            <a
+              href="#how-it-works"
+              className="text-[#3B63AB] hover:text-[#6995D0] transition-colors"
+            >
               Как это работает
             </a>
-            <a href="#stories" className="text-[#3B63AB] hover:text-[#6995D0] transition-colors">
-              Истории успеха
-            </a>
-            <a href="#about" className="text-[#3B63AB] hover:text-[#6995D0] transition-colors">
+            <a
+              href="#about"
+              className="text-[#3B63AB] hover:text-[#6995D0] transition-colors"
+            >
               О программе
             </a>
           </nav>
@@ -46,7 +54,7 @@ export function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden p-2"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
@@ -62,16 +70,22 @@ export function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col gap-4">
-              <a href="#projects" className="text-[#3B63AB] hover:text-[#6995D0] transition-colors">
+              <a
+                href="#projects"
+                className="text-[#3B63AB] hover:text-[#6995D0] transition-colors"
+              >
                 Проекты
               </a>
-              <a href="#how-it-works" className="text-[#3B63AB] hover:text-[#6995D0] transition-colors">
+              <a
+                href="#how-it-works"
+                className="text-[#3B63AB] hover:text-[#6995D0] transition-colors"
+              >
                 Как это работает
               </a>
-              <a href="#stories" className="text-[#3B63AB] hover:text-[#6995D0] transition-colors">
-                Истории успеха
-              </a>
-              <a href="#about" className="text-[#3B63AB] hover:text-[#6995D0] transition-colors">
+              <a
+                href="#about"
+                className="text-[#3B63AB] hover:text-[#6995D0] transition-colors"
+              >
                 О программе
               </a>
               <div className="flex flex-col gap-3 pt-4 border-t">

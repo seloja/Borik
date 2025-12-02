@@ -56,9 +56,9 @@ export function ProjectCard({
       </div>
 
       {/* Content */}
-      <div className="p-6">
+      <div className="p-8">
         {/* Category Tag */}
-        <div className="mb-3">
+        <div className="mb-4">
           <span 
             className="inline-block px-3 py-1 rounded-lg text-sm"
             style={{ 
@@ -71,17 +71,17 @@ export function ProjectCard({
         </div>
 
         {/* Title */}
-        <h3 className="mb-2 group-hover:text-[#6995D0] transition-colors">
+        <h3 className="mb-3 group-hover:text-[#6995D0] transition-colors">
           {title}
         </h3>
 
         {/* Description */}
-        <p className="text-[#6B7280] mb-4 line-clamp-2">
+        <p className="text-[#6B7280] mb-6 line-clamp-2">
           {description}
         </p>
 
         {/* Meta Info */}
-        <div className="flex flex-col gap-2 text-sm text-[#6B7280] mb-4">
+        <div className="flex flex-col gap-3 text-sm text-[#6B7280] mb-6">
           <div className="flex items-center gap-2">
             <Calendar className="w-4 h-4" />
             <span>{date}</span>

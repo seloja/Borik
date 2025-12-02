@@ -3,8 +3,8 @@ import { Mail, Phone, MapPin, Facebook, Instagram, Youtube } from 'lucide-react'
 export function Footer() {
   return (
     <footer className="bg-[#3B63AB] text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16">
+        <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* About */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -20,8 +20,8 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white mb-4">Быстрые ссылки</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="text-white mb-6">Быстрые ссылки</h4>
+            <ul className="space-y-3 text-sm">
               <li>
                 <a href="#projects" className="text-white/80 hover:text-white transition-colors">
                   Каталог проектов
@@ -30,11 +30,6 @@ export function Footer() {
               <li>
                 <a href="#how-it-works" className="text-white/80 hover:text-white transition-colors">
                   Как это работает
-                </a>
-              </li>
-              <li>
-                <a href="#stories" className="text-white/80 hover:text-white transition-colors">
-                  Истории успеха
                 </a>
               </li>
               <li>
@@ -47,8 +42,8 @@ export function Footer() {
 
           {/* For Volunteers */}
           <div>
-            <h4 className="text-white mb-4">Волонтерам</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="text-white mb-6">Волонтерам</h4>
+            <ul className="space-y-3 text-sm">
               <li>
                 <a href="#" className="text-white/80 hover:text-white transition-colors">
                   Личный кабинет
@@ -74,8 +69,8 @@ export function Footer() {
 
           {/* Contacts */}
           <div>
-            <h4 className="text-white mb-4">Контакты</h4>
-            <ul className="space-y-3 text-sm">
+            <h4 className="text-white mb-6">Контакты</h4>
+            <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span className="text-white/80">
@@ -97,7 +92,7 @@ export function Footer() {
             </ul>
 
             {/* Social Media */}
-            <div className="flex gap-3 mt-4">
+            <div className="flex gap-4 mt-6">
               <a 
                 href="#" 
                 className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors"
@@ -121,7 +116,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-white/10">
+        <div className="pt-12 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
             <div>
               © 2025 ДВФУ. Все права защищены.

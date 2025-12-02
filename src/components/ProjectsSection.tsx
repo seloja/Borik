@@ -84,9 +84,9 @@ export function ProjectsSection() {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+    <section id="projects" className="py-32 bg-white">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="text-center mb-20">
           <h2 className="mb-4">Каталог проектов</h2>
           <p className="text-xl text-[#6B7280] max-w-2xl mx-auto">
             Выбери проект, который откликается твоему сердцу, и начни менять мир уже сегодня
@@ -94,7 +94,7 @@ export function ProjectsSection() {
         </div>
 
         {/* Filters */}
-        <div className="mb-8">
+        <div className="mb-12">
           {/* Mobile Filter Toggle */}
           <button 
             className="md:hidden w-full flex items-center justify-between px-4 py-3 bg-[#F5F6F8] rounded-lg mb-4"
@@ -108,7 +108,7 @@ export function ProjectsSection() {
           </button>
 
           {/* Filter Categories */}
-          <div className={`${showFilters ? 'block' : 'hidden'} md:flex flex-wrap gap-3`}>
+          <div className={`${showFilters ? 'block' : 'hidden'} md:flex flex-wrap gap-4`}>
             {categories.map((cat) => (
               <button
                 key={cat.id}
@@ -131,14 +131,14 @@ export function ProjectsSection() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
         </div>
 
         {/* Load More */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-16">
           <button className="px-8 py-3 border-2 border-[#6995D0] text-[#6995D0] rounded-lg hover:bg-[#6995D0] hover:text-white transition-all">
             Показать еще проекты
           </button>

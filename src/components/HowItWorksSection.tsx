@@ -29,16 +29,16 @@ export function HowItWorksSection() {
   ];
 
   return (
-    <section id="how-it-works" className="py-20 bg-[#F5F6F8]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+    <section id="how-it-works" className="py-32 bg-[#F5F6F8]">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="text-center mb-20">
           <h2 className="mb-4">Как это работает</h2>
           <p className="text-xl text-[#6B7280] max-w-2xl mx-auto">
             Четыре простых шага, чтобы начать свой путь волонтера в ДВФУ
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
